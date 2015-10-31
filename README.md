@@ -1,4 +1,4 @@
-# CSS Modules: Extract Imports
+# CSS Modules: Resolve imports from aliases
 
 [![Build Status](https://travis-ci.org/pekim/postcss-modules-resolve-from-alias.svg?branch=master)](https://travis-ci.org/pekim/postcss-modules-resolve-from-alias)
 
