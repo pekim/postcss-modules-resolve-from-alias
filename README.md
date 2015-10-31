@@ -47,7 +47,7 @@ npm test
 
 [![Build Status](https://travis-ci.org/pekim/postcss-modules-resolve-from-alias.svg?branch=master)](https://travis-ci.org/pekim/postcss-modules-resolve-from-alias)
 
-* Lines: [![Coverage Status](https://coveralls.io/repos/pekim/postcss-modules-resolve-from-alias/badge.svg?branch=master)](https://coveralls.io/r/pekim/postcss-modules-resolve-from-alias?branch=master)
+* Lines: [![Coverage Status](https://coveralls.io/repos/pekim/postcss-modules-resolve-from-alias/badge.svg?branch=master&service=github)](https://coveralls.io/github/pekim/postcss-modules-resolve-from-alias?branch=master)
 * Statements: [![codecov.io](http://codecov.io/github/pekim/postcss-modules-resolve-from-alias/coverage.svg?branch=master)](http://codecov.io/github/pekim/postcss-modules-resolve-from-alias?branch=master)
 
 ## Development
