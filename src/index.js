@@ -1,13 +1,12 @@
 import postcss from 'postcss';
-import path from 'path';
 
 const declFilter = /^composes$/;
 const matchImports = /^(.+?\s+from\s+)(?:'([^']+)'|"([^"]+)"|(global))$/;
 
 function ensureTrailingSeparator(pathname) {
-  return pathname.endsWith(path.sep)
+  return pathname.endsWith('/')
     ? pathname
-    : pathname + path.sep
+    : pathname + '/'
   ;
 }
 
