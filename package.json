@@ -12,7 +12,7 @@
     "autotest": "chokidar src test -c 'npm test'",
     "precover": "npm run lint && npm run build",
     "cover": "babel-istanbul cover node_modules/.bin/_mocha -- --compilers js:babel/register",
-    "travis": "npm run cover -- --report lcovonly",
+    "travis": "babel-istanbul cover --report lcovonly node_modules/.bin/_mocha -- --compilers js:babel/register",
     "prepublish": "npm run build"
   },
   "repository": {
