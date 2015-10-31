@@ -1,0 +1,39 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "destructuring": true,
+    "forOf": true,
+    "generators": true,
+    "modules": true,
+    "objectLiteralComputedProperties": true,
+    "restParams": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true,
+    "unicodeCodePointEscapes": true
+  },
+
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "curly": [2, "all"],
+    "key-spacing": [2, { "align": "colon"}],
+    "new-cap": [2, {"capIsNewExceptions": ["List"]}],
+    "no-console": 0,
+    "no-param-reassign": [2, { "props": false }],
+    "no-use-before-define": [2, "nofunc"],
+    "no-var": 2,
+    "quotes": [2, "single", "avoid-escape"],
+    "semi": [2, "always"],
+    "space-before-blocks": [2, "always"],
+    "strict": [2, "global"]
+  }
+}

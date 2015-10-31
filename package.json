@@ -1,0 +1,50 @@
+{
+  "name": "postcss-modules-resolve-from-alias",
+  "version": "1.0.0",
+  "description": "A CSS Modules transform to provide aliases for composes paths",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "babel --out-dir lib src",
+    "watch": "chokidar src -c 'npm run build'",
+    "posttest": "npm run lint && npm run build",
+    "test": "mocha --compilers js:babel/register --growl",
+    "autotest": "chokidar src test -c 'npm test'",
+    "precover": "npm run lint && npm run build",
+    "cover": "babel-istanbul cover node_modules/.bin/_mocha -- --compilers js:babel/register",
+    "travis": "npm run cover -- --report lcovonly",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pekim/postcss-modules-resolve-from-alias.git"
+  },
+  "keywords": [
+    "css-modules",
+    "postcss",
+    "plugin"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "Mike D Pilsbury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pekim/postcss-modules-resolve-from-alias/issues"
+  },
+  "homepage": "https://github.com/pekim/postcss-modules-resolve-from-alias",
+  "dependencies": {
+    "postcss": "5.0.4"
+  },
+  "devDependencies": {
+    "babel": "5.4.7",
+    "babel-eslint": "4.1.3",
+    "babel-istanbul": "0.4.0",
+    "babelify": "6.1.2",
+    "chokidar-cli": "1.0.1",
+    "codecov.io": "0.1.2",
+    "coveralls": "2.11.2",
+    "eslint": "1.5.0",
+    "mocha": "2.2.5"
+  }
+}

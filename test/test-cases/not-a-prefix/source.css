@@ -1,0 +1,4 @@
+.className {
+  composes: importName from "abc/css-one-level/library.css";
+  other: rule;
+}

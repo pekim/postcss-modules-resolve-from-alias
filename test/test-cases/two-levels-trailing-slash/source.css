@@ -1,0 +1,4 @@
+.className {
+  composes: importName from "css/two-levels-trailing-slash/library.css";
+  other: rule;
+}
