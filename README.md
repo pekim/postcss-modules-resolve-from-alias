@@ -1,6 +1,8 @@
 # CSS Modules: Resolve imports from aliases
 
 [![Build Status](https://travis-ci.org/pekim/postcss-modules-resolve-from-alias.svg?branch=master)](https://travis-ci.org/pekim/postcss-modules-resolve-from-alias)
+[![NPM version](http://img.shields.io/npm/v/postcss-modules-resolve-from-alias.svg)](https://www.npmjs.org/package/postcss-modules-resolve-from-alias)
+
 
 With this config:
 
